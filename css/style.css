@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+}
+a {
+    /* брать значение у родителя */
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #868585;
+    margin-bottom: 60px;
+}
+.header {
+    background-image: url(../images/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px 10px 38px;
+    margin-bottom: 150px;
+}
+.header__subtitle {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: auto;
+}
+.header__title {
+    font-weight: 700;
+    line-height: 87px;
+    font-size: 64px;
+}
+.header__title span {
+    display: block;
+    font-size: 42px;
+    line-height: 57px;
+}
+.header__button {
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+.button__path {
+    transition: fill .5s;
+}
+.button:hover .button__path {
+    fill: #A9A32A;
+}
+.button__text {
+    font-size: 18px;
+    line-height: 25px;
+    display: inline-block;
+    /* остается строчным, но принимает блочные свойства */
+    transform: translate(-57px, -17px);
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social__link {
+    padding: 0 10px;
+}
+
+/* ---service--- */
+.service {
+    margin-bottom: 150px;
+}
+.service__inner {
+    display: flex;
+}
+.service__content {
+    flex-basis: 510px;
+    margin-right: 90px;
+}
+.service__box {
+    margin-bottom: 50px;
+}
+.service__box-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.service__img {
+    object-fit: cover;
+}
