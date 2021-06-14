@@ -8,6 +8,7 @@ body {
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
+    color: #303030;
 }
 a {
     /* брать значение у родителя */
@@ -64,6 +65,7 @@ ul {
 .header__button {
     margin-top: 50px;
     margin-bottom: auto;
+    align-self: center;
 }
 .button__path {
     transition: fill .5s;
@@ -76,7 +78,9 @@ ul {
     line-height: 25px;
     display: inline-block;
     /* остается строчным, но принимает блочные свойства */
-    transform: translate(-57px, -17px);
+    transform: translateY(-17px);
+    margin-left: -57px;
+
 }
 .social {
     display: flex;

@@ -1,0 +1,49 @@
+.info {
+    margin-bottom: 150px;
+}
+.info__inner {
+    display: flex;
+}
+.info__box {
+    flex-basis: 510px;
+    margin-right: 90px;
+}
+.info__content {
+    flex-basis: 600px;
+}
+.info__content-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 17px;
+}
+.info-tabs {
+    margin-bottom: 100px;
+}
+.info-tabs__items {
+    margin-bottom: 120px;
+}
+.info-tabs__item--active {
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid #303030;
+}
+.info-tabs__content {
+    display: none;
+}
+.info-tabs__content--active {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
