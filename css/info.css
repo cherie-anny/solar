@@ -23,6 +23,11 @@
 .info-tabs__items {
     margin-bottom: 120px;
 }
+.info-tabs__item {
+    font-size: 18px;
+    line-height: 25px;
+    margin-right: 40px;
+}
 .info-tabs__item--active {
     /* padding-bottom: 5px; */
     border-bottom: 1px solid #303030;
@@ -33,16 +38,58 @@
 .info-tabs__content--active {
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
+.info-slider {
+    max-width: 510px;
+}
+.info-slider__img {
+    margin-right: 40px;
+    float: left;
+}
+.info-slider__text {
+    padding-bottom: 15px;
+}
+.slick-arrow {
+    position: absolute;
+    left: 275px;
+    bottom: -3px;
+    z-index: 5;
+    cursor: pointer;
+}
+.slick-right {
+    left: 340px;
+}
+.info__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.info__list-item {
+    flex-basis: 235px;
+    margin-bottom: 17px;
+}
+.info__list-title {
+    margin-bottom: 5px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.blockquote {
+    padding: 128px 10px 144px;
+    background-image: url(../images/blockquote.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+.blockquote__text {
+    max-width: 670px;
+    margin: 0 auto;
+    font-size: 42px;
+    line-height: 57px;
+    color: #fff;
+}
 
 
 
