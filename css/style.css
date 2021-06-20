@@ -117,7 +117,7 @@ ul {
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1240px) {
     .info__inner {
         flex-wrap: wrap-reverse;
         /* меняет последовательность блоков */
@@ -155,7 +155,35 @@ ul {
         width: 100%;
         height: 400px;
     }
+    .step__inner {
+        flex-wrap: wrap;
+    }
+    .step__content {
+        margin-right: 0;
+    }
+    .step__img {
+        object-fit: cover;
+        height: 400px;
+        flex-basis: 100%;
+        max-width: 1005;
+    }
 }
+@media (max-width: 960px) {
+    .clients-slider__box {
+        display: block;
+    }
+    .clients-slider__box-title {
+        max-width: 100%;
+    }
+    .clients-slider__box-img {
+        width: 100%;
+        object-fit: cover;
+        height: 300px;
+        margin-right: 0;
+    }
+
+}
+
 @media (max-width: 826px) {
     .info__box {
         display: block;
@@ -178,6 +206,31 @@ ul {
     .header__title span {
         font-size: 32px;
         line-height: 40px;
+    }
+    .blockquote {
+        padding: 60px 10px 80px;
+    }
+    .blockquote__text {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .footer__bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .footer__bottom .logo {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .footer__top {
+        flex-wrap: wrap;
+    }
+    .footer__form {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: 40px;
     }
 }
 @media (max-width: 640px) {
@@ -208,8 +261,45 @@ ul {
         font-size: 16px;
         line-height: 22px;
     }
-    .info-slider {
+    /* .info-slider {
         max-width: 100%;
+    }
+    .info-slider__img {
+        margin-right: 0;
+        font: none;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .info-slider__text {
+
+    } */
+    .info-slider {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .info-slider__img {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+        font: none;
+        height: 200px;
+        object-fit: cover;
+    }
+    
+    .slick-left {
+        left: calc(50% - 50px);
+    }
+    .slick-right {
+        left: calc(50% + 10px);
+    }
+    .info__list {
+        display: block;
+    }
+    .info-tabs__item {
+        margin-right: 0;
+        padding: 10px;
+        display: block;
+        text-align: center;
     }
 }
 /* на всех мониторах меньше 375px-следующие изменения */
@@ -224,8 +314,16 @@ ul {
     .service__box {
         margin-bottom: 30px;
     }
+    .blockquote__text {
+        font-size: 22px;
+        line-height: 28px;
+    }
 }
-
+@media (max-width: 340px) {
+    .info-slider {
+        width: 280px;
+    }
+}
 
 
 
